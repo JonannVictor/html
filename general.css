@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+ header,h1 {
+   text-align: center;
+   width: 100%;
+ }
+ 
+ h3 {
+   font-size: 35px
+ }
+ h1{
+   font-size: 250%
+ }
+ 
+body {
+  background: linear-gradient(to right,#FF0000, #CBFF00,#00FF08),     
+              linear-gradient(to left, #FF0000,#1000FF,#FFFF00);
+  min-height: 100vh;
+}
+
+main {
+  padding: 13px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;   
+}
+
+img {
+  max-width: 100%; /* Certifica-se de que a imagem não ultrapasse a largura do container */
+  margin: 0 auto; /* Define margens automáticas (0 no topo/baixo e "auto" na esquerda/direita) */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  /* outros estilos do footer */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+       color:#020000;
+}
